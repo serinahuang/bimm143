@@ -5,3 +5,4 @@ Hands-on sessions:
 - PCA on UK Food Bank data
 
 Projects:
+- Find a gene assignment
