@@ -1,0 +1,46 @@
+---
+title: "Class 13: Structural Bioinformatics II"
+author: "Serina Huang"
+date: "November 13, 2018"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Section 1. _In silico_ docking of drugs to HIV-1 protease
+```{r}
+library(bio3d)
+file.name <- get.pdb("1HSG")
+hiv <- read.pdb(file.name)
+```
+
+##### Q1. What are the 2 non-protein **resid** values in this structure? What does **resid** correspond to and how would you get a listing of all residue values in this structure?
+```{r}
+# Quick summary of contents of this pdb structure
+hiv
+```
+
+##### A1. HOH, water, and MK1, a Merck drug compound.
+
+### Split into separate protein and ligand files
+```{r}
+# The protein-only portion is our receptor
+prot <- trim.pdb(hiv, "protein")
+prot
+# Write this into a file
+write.pdb(prot, file = "1hsg_protein.pdb")
+# Inspect the resulting file that all are proteins
+```
+
+Do the same for ligand:
+```{r}
+lig <- trim.pdb(hiv, "ligand")
+lig
+# The only non-protein residue is MK1, and no HOH
+write.pdb(lig, file = "1hsg_ligand.pdb")
+# Inspect again
+```
+
+Note: if there is more than 1 ligand in a structure, you can get the ligand at a certain residue, e.g. at 902.
