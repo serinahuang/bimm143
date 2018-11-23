@@ -154,7 +154,7 @@ mycounts$uniprot <- mapIds(org.Hs.eg.db,
                       column = "UNIPROT",
                       keytype = "ENSEMBL",
                       multiVals = "first")
-View(mycounts)
+head(mycounts)
 ```
 
 ### DESeq2 Analysis

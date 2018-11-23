@@ -402,8 +402,23 @@ mycounts$uniprot <- mapIds(org.Hs.eg.db,
     ## 'select()' returned 1:many mapping between keys and columns
 
 ``` r
-View(mycounts)
+head(mycounts)
 ```
+
+    ##                 control.mean treated.mean      log2fc   symbol entrez
+    ## ENSG00000000003       900.75       658.00 -0.45303916   TSPAN6   7105
+    ## ENSG00000000419       520.50       546.00  0.06900279     DPM1   8813
+    ## ENSG00000000457       339.75       316.50 -0.10226805    SCYL3  57147
+    ## ENSG00000000460        97.25        78.75 -0.30441833 C1orf112  55732
+    ## ENSG00000000971      5219.00      6687.50  0.35769358      CFH   3075
+    ## ENSG00000001036      2327.00      1785.75 -0.38194109    FUCA2   2519
+    ##                    uniprot
+    ## ENSG00000000003 A0A024RCI0
+    ## ENSG00000000419     O60762
+    ## ENSG00000000457     Q8IZE3
+    ## ENSG00000000460 A0A024R922
+    ## ENSG00000000971 A0A024R962
+    ## ENSG00000001036     Q9BTY2
 
 ### DESeq2 Analysis
 
