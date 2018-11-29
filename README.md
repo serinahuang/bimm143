@@ -7,6 +7,7 @@ Lectures:
 - class13
 - class14: Genome Informatics I
 - class15: Genome Informatics II
+- class16: Genome Informatics III
 
 Hands-on sessions:
 - lab08 PCA on UK Food Bank data
