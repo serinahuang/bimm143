@@ -1,4 +1,4 @@
-Class 5: Data Visualization with R
+Class 5: Data Visualization in R
 ================
 Serina Huang
 12/04/18

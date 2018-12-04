@@ -1,5 +1,5 @@
 ---
-title: "Class 5: Data Visualization with R"
+title: "Class 5: Data Visualization in R"
 author: "Serina Huang"
 date: "`r format(Sys.time(), '%D')`"
 output: github_document
