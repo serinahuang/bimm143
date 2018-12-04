@@ -20,7 +20,10 @@ Lectures:
 * class 17: [Cancer Genomics](https://github.com/serinahuang/bimm143/tree/master/class17)
 
 Hands-on sessions:
-- lab08 PCA on UK Food Bank data
+* lab08 PCA on UK Food Bank data
 
 Projects:
-- [Find a gene](https://github.com/serinahuang/bimm143/tree/master/find_a_gene)
+* [Find a gene](https://github.com/serinahuang/bimm143/tree/master/find_a_gene)
+
+Miscellaneous:
+* [Final Study Guide](https://docs.google.com/document/d/1-EfgeLl1eSz-810hzTCXNi1n1TND_b9ch647LeZ9EqY/edit?usp=sharing)
