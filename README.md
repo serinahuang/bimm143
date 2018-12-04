@@ -11,11 +11,11 @@ Lectures:
 - class 07
 - class 08
 - class 09
-- [class 13: Structural Informatics II (*in silico* Docking)](https://github.com/serinahuang/bimm143/tree/master/class13)
-- [class 14: Genome Informatics I (RNA-seq Analysis)](https://github.com/serinahuang/bimm143/tree/master/class14)
-- [class 15: Genome Informatics II (Differential Gene Expression Analysis)](https://github.com/serinahuang/bimm143/tree/master/class15)
-- [class 16: Genome Informatics III (Geneset Enrichment Analysis)](https://github.com/serinahuang/bimm143/tree/master/class16)
-- [class 17: Cancer Genomics](https://github.com/serinahuang/bimm143/tree/master/class17)
+- class 13: [Structural Informatics II (*in silico* Docking)](https://github.com/serinahuang/bimm143/tree/master/class13)
+- class 14: [Genome Informatics I (RNA-seq Analysis)](https://github.com/serinahuang/bimm143/tree/master/class14)
+- class 15: [Genome Informatics II (Differential Gene Expression Analysis)](https://github.com/serinahuang/bimm143/tree/master/class15)
+- class 16: [Genome Informatics III (Geneset Enrichment Analysis)](https://github.com/serinahuang/bimm143/tree/master/class16)
+- class 17: [Cancer Genomics](https://github.com/serinahuang/bimm143/tree/master/class17)
 
 Hands-on sessions:
 - lab08 PCA on UK Food Bank data
