@@ -10,9 +10,9 @@ Lectures:
 * class 03: Advanced Sequence Alignments and Database Searching
 * class 04: Bioinformatics with R, the Basics
 * class 05: [Data Visualization in R](https://github.com/serinahuang/bimm143/tree/master/class05)
-* class 06: Functions in R
+* class 06: [Functions in R](https://github.com/serinahuang/bimm143/tree/master/class06)
     + Homework: Convert a code snippet to a general function 
-* class 07: Packages in R
+* class 07: [Packages in R](https://github.com/serinahuang/bimm143/tree/master/class07)
 * class 08
     + Lab: PCA on UK Food Bank data
 * class 09
