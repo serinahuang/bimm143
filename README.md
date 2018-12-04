@@ -8,6 +8,7 @@ Lectures:
 * class 02: [Sequence Alignments, Algorithms, and Applications](https://github.com/serinahuang/bimm143/tree/master/class02) 
     + Homework: Needleman-Wunsch alignment algorithm by hand
 * class 03: Advanced Sequence Alignments and Database Searching
+* class 04: Bioinformatics with R, the Basics
 * class 05
 * class 06
 * class 07
