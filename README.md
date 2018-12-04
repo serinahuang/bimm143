@@ -11,7 +11,7 @@ Lectures:
 - [class14: Genome Informatics I](https://github.com/serinahuang/bimm143/tree/master/class14)
 - [class15: Genome Informatics II](https://github.com/serinahuang/bimm143/tree/master/class15)
 - [class16: Genome Informatics III](https://github.com/serinahuang/bimm143/tree/master/class16)
-- [class17: Cancer Genomics)(https://github.com/serinahuang/bimm143/tree/master/class17)
+- [class17: Cancer Genomics](https://github.com/serinahuang/bimm143/tree/master/class17)
 
 Hands-on sessions:
 - lab08 PCA on UK Food Bank data
