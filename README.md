@@ -4,6 +4,8 @@ My class repository for BIMM 143 (Introduction to Bioinformatics) at UCSD.
 [Class Homepage](https://bioboot.github.io/bimm143_F18/)
 
 Lectures:
+- class01: Bioinformatics Databases
+- class02: Sequence Alignments, Algorithms, and Applications
 - class05
 - class06
 - class07
