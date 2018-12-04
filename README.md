@@ -5,7 +5,7 @@ Dr. Barry Grant's [Class Homepage](https://bioboot.github.io/bimm143_F18/) conta
 
 Lectures:
 - class 01: Bioinformatics Databases
-- class 02: Sequence Alignments, Algorithms, and Applications
+- class 02: [Sequence Alignments, Algorithms, and Applications](https://github.com/serinahuang/bimm143/tree/master/class02)
 - class 05
 - class 06
 - class 07
