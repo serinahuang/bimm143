@@ -1,8 +1,8 @@
 # Serina's BIMM 143 Class Repository
 My class repository for BIMM 143 (Introduction to Bioinformatics) at UCSD.
-
+\n
 Dr. Barry Grant's [Class Homepage](https://bioboot.github.io/bimm143_F18/) contains the lecture slides and worksheets for the following writeups.
-
+\n
 Lectures:
 - class 01: Bioinformatics Databases
 - class 02: Sequence Alignments, Algorithms, and Applications
