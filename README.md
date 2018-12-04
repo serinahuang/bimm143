@@ -19,4 +19,4 @@ Hands-on sessions:
 - lab08 PCA on UK Food Bank data
 
 Projects:
-- Find a gene assignment
+- [Find a gene](https://github.com/serinahuang/bimm143/tree/master/find_a_gene]
