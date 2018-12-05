@@ -139,3 +139,26 @@ rmsd(ori, res)
 Q6. Is the crystal binding mode reproduced within 1 Angstrom RMSD for all atoms?
 
 A6. Absolutely.
+
+### Section 3. Explore conformational dynamics of proteins
+```{r}
+pdb <- read.pdb("1HEL")
+modes <- nma(pdb)
+plot(modes, sse = pdb)
+# Visualize NMA results, e.g. the 7th mode
+mktrj(modes, mode = 7, file = "nma_7.pdb")
+```
+
+Fluctuations plot shows which residues are likely to move, i.e. more molecules can fit in there.
+
+Load `nma_7.pdb` into VMD -> Graphics -> Representations:
+```
+Tube, Index, all
+```
+Play the video to see motion. Let's export the animation!
+
+```
+Extensions -> Visualization -> Movie Maker -> Move Settings: Trajectory -> Format: Animated GIF
+```
+
+![](nma_7_animated.gif)
