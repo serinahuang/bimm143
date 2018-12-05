@@ -13,7 +13,7 @@ Lectures:
 * class 06: [Functions in R](https://github.com/serinahuang/bimm143/tree/master/class06)
     + Homework: Convert a code snippet to a general function 
 * class 07: [Packages in R](https://github.com/serinahuang/bimm143/tree/master/class07)
-* class 08
+* class 08: [Machine Learning](https://github.com/serinahuang/bimm143/tree/master/class08)
     + Lab: PCA on UK Food Bank data
 * class 09
 * class 13: [Structural Informatics II (*in silico* Docking)](https://github.com/serinahuang/bimm143/tree/master/class13)
@@ -23,7 +23,7 @@ Lectures:
 * class 17: [Cancer Genomics](https://github.com/serinahuang/bimm143/tree/master/class17)
 
 Project:
-* [Find a gene](https://github.com/serinahuang/bimm143/tree/master/find_a_gene)
+* [Find a Gene](https://github.com/serinahuang/bimm143/tree/master/find_a_gene)
 
 Miscellaneous:
 * [Final Study Guide](https://docs.google.com/document/d/1-EfgeLl1eSz-810hzTCXNi1n1TND_b9ch647LeZ9EqY/edit?usp=sharing)
