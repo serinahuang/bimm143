@@ -23,7 +23,8 @@ Lectures:
 * class 14: [Genome Informatics I (RNA-seq Processing)](https://github.com/serinahuang/bimm143/tree/master/class14)
 * class 15: [Genome Informatics II (Differential Gene Expression Analysis)](https://github.com/serinahuang/bimm143/tree/master/class15)
 * class 16: [Genome Informatics III (Gene Set Enrichment Analysis)](https://github.com/serinahuang/bimm143/tree/master/class16)
-* class 17: [Cancer Genomics](https://github.com/serinahuang/bimm143/tree/master/class17)
+* class 17: Biological Network Analysis (Thanksgiving, No Class)
+* class 18: [Cancer Genomics](https://github.com/serinahuang/bimm143/tree/master/class18)
 
 Project:
 * [Find a Gene](https://github.com/serinahuang/bimm143/tree/master/find_a_gene)
