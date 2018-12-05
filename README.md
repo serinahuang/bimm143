@@ -16,7 +16,10 @@ Lectures:
 * class 08: [Machine Learning](https://github.com/serinahuang/bimm143/tree/master/class08)
     + Lab: PCA on UK Food Bank data
 * class 09: [Unsupervised Learning Mini Project (Wisconsin Cancer Dataset)](https://github.com/serinahuang/bimm143/tree/master/class09)
-* class 13: [Structural Informatics II (*in silico* Docking)](https://github.com/serinahuang/bimm143/tree/master/class13)
+* class 10: GitHub
+* class 11: [Structural Informatics I](https://github.com/serinahuang/bimm143/tree/master/class11)
+* class 12: Structural Informatics II (*in silico* Docking, Guest Lecturer from Industry)
+* class 13: [Structural Informatics III (*in silico* Docking, R)](https://github.com/serinahuang/bimm143/tree/master/class13)
 * class 14: [Genome Informatics I (RNA-seq Analysis)](https://github.com/serinahuang/bimm143/tree/master/class14)
 * class 15: [Genome Informatics II (Differential Gene Expression Analysis)](https://github.com/serinahuang/bimm143/tree/master/class15)
 * class 16: [Genome Informatics III (Geneset Enrichment Analysis)](https://github.com/serinahuang/bimm143/tree/master/class16)
