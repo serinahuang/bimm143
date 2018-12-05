@@ -2,7 +2,7 @@
 title: "Lab 8"
 author: "Serina Huang"
 date: "October 25, 2018"
-output: html_document
+output: github_document
 ---
 
 ## Section 1. PCA of UK food data

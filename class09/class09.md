@@ -1,4 +1,4 @@
-Class 9
+Class 9: Unsupervised Learning Mini Project (Wisconsin Cancer Dataset)
 ================
 Serina Huang
 October 30, 2018

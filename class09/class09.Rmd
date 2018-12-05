@@ -1,5 +1,5 @@
 ---
-title: "Class 9"
+title: "Class 9: Unsupervised Learning Mini Project (Wisconsin Cancer Dataset)"
 author: "Serina Huang"
 date: "October 30, 2018"
 output: github_document
@@ -9,8 +9,8 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Section 1.
-## Preparing the data
+## Section 1.
+### Preparing the data
 ```{r}
 url <- "https://bioboot.github.io/bimm143_S18/class-material/WisconsinCancer.csv"
 wisc.df <- read.csv(url)
@@ -35,7 +35,7 @@ diagnosis <- as.numeric( wisc.df$diagnosis == "M" )
 sum(diagnosis)
 ```
 
-## Exploratory data analysis
+### Exploratory data analysis
 Q1. How many observations are in this dataset?
 ```{r}
 nrow(wisc.data)
@@ -56,8 +56,8 @@ Q3. How many of the observations have a malignant diagnosis?
 table(wisc.df$diagnosis)
 ```
 
-# Section 2.
-## Performing PCA
+## Section 2.
+### Performing PCA
 Check the mean of the features (columns) of `wisc.data` to determine if the data needs to be scaled.
 ```{r}
 # Check mean of each column
@@ -85,7 +85,7 @@ Q5. How many PCs are required to describe at least 70% of variance in the data?
 Q6. How many PCs are required to describe at least 90% of variance in the data?
 7.
 
-## Interpreting PCA results
+### Interpreting PCA results
 ```{r}
 biplot(wisc.pr)
 ```
@@ -111,7 +111,7 @@ Because PC2 explains more variance in the original data than PC3, you can see th
 
 Overall, the plots indicate that PC1 is capturing a separation of malignant from benign samples. This is an important and interesting result worthy of further exploration - as we will do in the next sections!
 
-## Variance explained
+### Variance explained
 Calculate variance of each PC by squaring `sdev` component of `wisc.pr`.
 ```{r}
 pr.var <- wisc.pr$sdev ^ 2
@@ -132,8 +132,8 @@ cum.var <- cumsum(pve)
 plot(cum.var, typ = "o", xlab = "Principal Component", ylab = "Cumulative Proportion of Variance Explained")
 ```
 
-# Section 3.
-## Hierarchical clustering of case data
+## Section 3.
+### Hierarchical clustering of case data
 Q11. Using the `plot()` function, what is the height at which the clustering model has 4 clusters?
 ```{r}
 data.scaled <- scale(wisc.data)
@@ -143,7 +143,7 @@ wisc.hclust <- hclust(data.dist, method = "complete")
 plot(wisc.hclust)
 ```
 
-## Selecting number of clusters
+### Selecting number of clusters
 We want to ask the question: does hierarchical clustering give us any new information in this case?
 ```{r}
 wisc.hclust.clusters <- cutree(wisc.hclust, k = 4)
@@ -160,8 +160,8 @@ Q12. Can you find a better cluster vs. diagnosis match by cutting into a differe
 wisc.hclust.clusters5 <- cutree(wisc.hclust, k = 5)
 ```
 
-# Section 5.
-## Clustering on PCA results
+## Section 5.
+### Clustering on PCA results
 Earlier we found that a minumum of 7 clusters is required to describe at least 90% of variability in the data. Create a hierarchical clustering model with complete linkage.
 ```{r}
 d.pr <- dist(wisc.pr$x[, 1:7])
@@ -180,8 +180,8 @@ table(wisc.hclust.clusters, diagnosis)
 Q14. How well does the newly created model with four clusters separate out the two diagnoses?
 
 
-# Section 7.
-## Predicting Malignancy of New Samples with Our PCR Model
+## Section 7.
+### Predicting Malignancy of New Samples with Our PCR Model
 ```{r}
 url2 <- "https://tinyurl.com/new-samples-CSV"
 new <- read.csv(url2)
